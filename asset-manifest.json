@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.7db55895.css",
+    "main.js": "/memory-game/static/js/main.45dbfdf8.js",
+    "static/media/PoltawskiNowy-SemiBold.otf": "/memory-game/static/media/PoltawskiNowy-SemiBold.23361f2bc45bc88df59a.otf",
+    "static/media/PoltawskiNowy-Bold.otf": "/memory-game/static/media/PoltawskiNowy-Bold.6c08a03e07d915b17285.otf",
+    "static/media/PoltawskiNowy-Regular.otf": "/memory-game/static/media/PoltawskiNowy-Regular.d1897dd4594b44ce4a2e.otf",
+    "static/media/PoltawskiNowy-SemiBoldItalic.otf": "/memory-game/static/media/PoltawskiNowy-SemiBoldItalic.77d1f4de162f071c422f.otf",
+    "static/media/PoltawskiNowy-BoldItalic.otf": "/memory-game/static/media/PoltawskiNowy-BoldItalic.ee0aad5ab5c3440fc891.otf",
+    "static/media/PoltawskiNowy-Italic.otf": "/memory-game/static/media/PoltawskiNowy-Italic.533246485dea49d715a2.otf",
+    "index.html": "/memory-game/index.html",
+    "main.7db55895.css.map": "/memory-game/static/css/main.7db55895.css.map",
+    "main.45dbfdf8.js.map": "/memory-game/static/js/main.45dbfdf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7db55895.css",
+    "static/js/main.45dbfdf8.js"
+  ]
+}
