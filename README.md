@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Jeu de Mémoire – SEG3525
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet a été réalisé dans le cadre du **cours SEG3525 – Conception et analyse des interfaces usagers**, à l’Université d’Ottawa.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Objectif du projet
 
-### `npm start`
+Développer un jeu de mémoire interactif accessible depuis un navigateur, basé sur les principes de la **conception centrée sur l'usager (CCU)**. Le projet met l'accent sur l'adaptation de l'interface selon deux profils d'usagers distincts définis par des **scénarimages détaillés**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Personnages cibles
 
-### `npm test`
+- **Léa Tremblay** : étudiante curieuse et créative, avec une excellente mémoire visuelle mais facilement distraite.
+- **Michel Dufresne** : retraité méthodique, ancien professeur de mathématiques, motivé par le maintien de ses capacités cognitives.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Fonctionnalités principales
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Sélection du **thème des cartes** (animaux, objets, aléatoire)
+- Choix du **niveau de difficulté** (nombre de paires)
+- Option d'**affichage temporaire des cartes** au début de la partie
+- **Feedback visuel immédiat** : bravo, réessayez, victoire
+- **Timer** pour suivre la performance
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Design visuel basé sur les scénarimages
 
-### `npm run eject`
+Deux designs ont été conçus :
+- Une interface **colorée, ludique et arrondie** pour Léa
+- Une interface **sobre, structurée et lisible** pour Michel
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Le jeu respecte les principes de :
+- **Cohérence visuelle**
+- **Hiérarchie de l’information**
+- **Contraste suffisant pour la lisibilité**
+- **Accessibilité pour tous les âges**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Structure du projet
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+├── public/             # Fichiers accessibles directement (HTML, manifest, icônes)
+│ ├── index.html        # Page HTML principale injectée par React
+│ ├── logo.png          # Logo du site
+│ ├── manifest.json     # Fichier pour PWA (Progressive Web App)
+│ └── robots.txt        # Contrôle d’indexation par les moteurs de recherche
 
-## Learn More
+├── src/                # Code source principal
+│ ├── assets/           # Images, icônes, sons, fichiers SVG
+│ ├── components/       # Composants React réutilisables (Cartes, Grille, etc.)
+│ ├── css/              # Fichiers CSS : styles globaux et spécifiques
+│ ├── fonts/            # Polices personnalisées
+│ ├── App.js            # Composant racine de l'application
+│ └── index.js          # Point d’entrée de l’application React (ReactDOM)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+├── .gitignore          # Fichiers/dossiers à ignorer par Git
+├── package.json        # Dépendances, scripts et métadonnées du projet
+├── package-lock.json   # Verrouillage des versions des dépendances
+└── README.md           # Ce fichier
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Captures d'écran
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Voir le dossier `scenarimages/` pour les maquettes complètes associées à Léa Tremblay et Michel Dufresne.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Concepts IU appliqués
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Conception centrée sur l’usager (UCD/CCU)
+- Prototypage basé sur des scénarios réels
+- Principes de perception (Gestalt, mémoire à court terme, attention)
+- Accessibilité et simplicité d’utilisation
