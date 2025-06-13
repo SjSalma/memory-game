@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
+import Settings from './components/Setting';
+import Board from './components/Board';
+
+import './css/App.css';
+
+export default function App() {
+  const [settings, setSettings] = useState(null);
+
+  function handleCancel() {
+    setSettings(null);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {settings === null && (
+        <>
+          <h1 className="titre-jeu">Bienvenu au</h1>
+          <h2 className="soustitre-jeu">MEMORY GAME</h2>
+        </>
+      )}
+      {settings === null ? (
+        <Settings onStart={setSettings} />
+      ) : (
+        <Board {...settings} onCancel={handleCancel} />
+      )}
     </div>
   );
 }
-
-export default App;

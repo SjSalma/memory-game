@@ -1,0 +1,114 @@
+.settings {
+  margin: auto;
+  padding: clamp(1.5rem, 5vw, 2.5rem);
+  color: #354B60;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  max-width: clamp(20rem, 90vw, 43.75rem);
+  font-size: clamp(1.2rem, 2.5vw, 1.4375rem);
+}
+
+.form-group {
+  margin-bottom: clamp(1rem, 4vw, 1.875rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.settings select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: clamp(1rem, 2.5vw, 1.125rem);
+  padding: clamp(0.6rem, 2vw, 0.625rem);
+  width: clamp(15rem, 40vw, 18.75rem);
+  border-radius: clamp(0.3rem, 1vw, 0.313rem);
+  border: 1px solid #9F9F9F;
+  background-color: #FAF7ED;
+  font-family: 'PoltawskiNowy';
+  font-weight: 400;
+  font-style: normal;
+  color: #354B60;
+  cursor: pointer;
+  background-image: url('../assets/selecteur.png');
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 8px;
+}
+
+.settings select:focus {
+  outline: none;
+}
+
+.level-buttons button {
+  margin-right: clamp(0.2rem, 1vw, 0.313rem);
+  padding: clamp(0.2rem, 1vw, 0.25rem);
+  width: clamp(2rem, 6vw, 2.8125rem);
+  font-size: clamp(1rem, 2.5vw, 1.125rem);
+  border: 1px solid #9F9F9F;
+  background-color: #FAF7ED;
+  border-radius: clamp(0.3rem, 1vw, 0.313rem);
+  cursor: pointer;
+  font-family: 'PoltawskiNowy';
+  font-weight: 400;
+  font-style: normal;
+  color: #354B60;
+}
+
+.level-buttons .selected {
+  background-color: #354b603a;
+  border: 2px solid #354B60;
+  color: #354B60;
+  font-weight: 700;
+}
+
+.checkbox-custom {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: clamp(1rem, 4vw, 1.875rem);
+}
+
+.checkbox-custom input[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  width: clamp(1.5rem, 4vw, 1.875rem);
+  height: clamp(1.5rem, 4vw, 1.875rem);
+  border: 1px solid #9F9F9F;
+  background-color: #FAF7ED;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.checkbox-custom input[type="checkbox"]:checked {
+  background-color: #354b603a;
+}
+
+.checkbox-custom input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  top: clamp(0.3rem, 1vw, 0.4375rem);
+  left: clamp(0.3rem, 1vw, 0.4375rem);
+  width: clamp(0.7rem, 2vw, 0.875rem);
+  height: clamp(0.7rem, 2vw, 0.875rem);
+  border-radius: 50%;
+  background-color: #354B60;
+}
+
+.btn-launch {
+  margin-top: clamp(1rem, 4vw, 1.875rem);
+  padding: clamp(0.6rem, 2vw, 0.8125rem);
+  font-size: clamp(1.2rem, 3vw, 1.4375rem);
+  background-color: #354B60;
+  font-family: 'PoltawskiNowy';
+  font-weight: 400;
+  font-style: normal;
+  color: #FAF7ED;
+  border: none;
+  border-radius: clamp(0.3rem, 1vw, 0.313rem);
+  cursor: pointer;
+  text-transform: uppercase;
+  align-self: center;
+}

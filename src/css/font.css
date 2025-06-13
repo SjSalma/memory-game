@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'PoltawskiNowy';
+  src: url('../fonts/PoltawskiNowy-Regular.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PoltawskiNowy';
+  src: url('../fonts/PoltawskiNowy-SemiBold.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PoltawskiNowy';
+  src: url('../fonts/PoltawskiNowy-Bold.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PoltawskiNowy';
+  src: url('../fonts/PoltawskiNowy-Italic.otf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PoltawskiNowy';
+  src: url('../fonts/PoltawskiNowy-SemiBoldItalic.otf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PoltawskiNowy';
+  src: url('../fonts/PoltawskiNowy-BoldItalic.otf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
