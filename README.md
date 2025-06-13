@@ -16,6 +16,7 @@ Il met en pratique les concepts de **conception centrée sur l’usager (CCU)** 
 
 ## Structure du projet
 
+```
 memory-game/
 ├── public/                     # Fichiers statiques
 │   ├── index.html
@@ -32,9 +33,10 @@ memory-game/
 ├── package.json                # Dépendances React
 ├── package-lock.json
 └── README.md                   # Ce fichier
+```
 
 
-> [Lien vers le site final](https://sjsalma.github.io/nail-by-SALMA/)
+> [Lien vers le site final](https://SjSalma.github.io/memory-game)
 
 
 ## 📬 Pour me contacter

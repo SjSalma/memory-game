@@ -1,7 +1,8 @@
 {
-  "name": "my-react-app",
+  "name": "memory-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://SjSalma.github.io/memory-game",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
@@ -12,6 +13,7 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.6",
+    "gh-pages": "^6.3.0",
     "lodash.shuffle": "^4.2.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
@@ -24,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
