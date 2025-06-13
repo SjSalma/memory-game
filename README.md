@@ -1,6 +1,6 @@
 # Jeu de Mémoire - Jeu de mémoire (Devoir 3)
 
-Bienvenue sur mon site *Memory Game* 🃏.
+Bienvenue sur mon site *Memory Game* 🃏.  
 Ce projet a été réalisé dans le cadre du **cours SEG3525 – Conception et analyse des interfaces usagers**, à l’Université d’Ottawa.  
 Il met en pratique les concepts de **conception centrée sur l’usager (CCU)** et d’**interfaces visuelles accessibles**.
 
